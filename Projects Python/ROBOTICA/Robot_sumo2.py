@@ -40,7 +40,7 @@ class HandDetector:
         self.detector = vision.HandLandmarker.create_from_options(options)
 
 
-        #PARÂMETROS PARA PASSAR PARA C++
+        #PARÂMETRO PARA PASSAR PARA C++
 
         self.State = None
 
